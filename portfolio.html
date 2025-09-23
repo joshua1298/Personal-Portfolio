@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="portfolio.css" media="screen" />
+    
+
+</head>
+<body>
+    <hr class="first">
+
+    <section id="about">
+        
+        <div id="opening">
+            <div id="title">
+                <h1 id="aboutTitle">Hi,</h1>
+                <h1 id="aboutTitle2">I'm Joshua Stevenson</h1>
+            </div>
+            <p id="subtitle">Cybersecurity student at Hampton University with a passion for all things computers.</p>
+            <div id="buttons">
+                <button id="contact" type="button" onclick="contactBox()">Contact Me</button>
+                <a id="resume" href="myresume.pdf" target="_blank">My Resume</a>
+            </div>
+        </div>
+
+        <img id="pfp" src="headshot.jpeg" alt="My picture">
+        
+    </section>
+
+    <hr id="one">
+
+    <section id="experience">
+        
+        <h1 id="expTitle">About Me!</h1>
+                
+
+        <div id="aboutContainer">
+            <div id="expContainer">   
+                    <div id="expText">
+                        <h2>Work Experience</h2>
+                        <p>During the summer of 2025, I was in Virginia working at MITRE. I was apart of the Cyber Futures program and I worked in the digital forensics lab.</p>
+                        <hr id="exp">
+                        <p>Previously, during the summer of 2024, I interned at my local school district where I helped maintain thousands of devices over the summer</p>
+                       
+                    </div>
+                    
+                    <img id="mitre" src="MITRE.jpg" alt="Me at MITRE"> 
+            </div>
+            <div id="certificate">
+                <div>
+                    <h2>Certifications</h2>
+                    <p>During the summer 2025 I earned my first certification: </p>
+                    <a id="certLink" href="https://www.credly.com/badges/010aa00a-6bd5-469f-8b9c-3b831af62cb5" target="_blank">GIAC Foundational Cybersecurity Technologies (GFACT) </a>
+                </div>
+                <img id="gfact" src="GFACT.png" alt="GFACT icon">
+            </div>
+        
+        </div>
+        <h3 id="resumeLink">Find more info about both of these experiences on <a id="resumeTag" href="myresume.pdf" target="_blank">my resume</a></h3>
+
+        
+    </section>
+
+    <hr>
+
+    <section id="projects">
+        <h3 id="projectTitle">My Works</h3>
+        <p style="margin-left: 10px;">Click to download the files. Unzip the file and open the index file or the html file.</p>
+        <div id="projectWrapper">
+            <a class="pj" id="rinkRanks" href="nhl.zip" download>
+                <div class="pjTextContainer">
+                    <h3 class="pjTitle">Rink Ranks (2025 - still in progress)</h3>
+                    <p class="pjText">Uses real time data from the official NHL API along with a custom scoring algorithm to rank 
+                        teams based on recent performance and strength of schedule. Visualizes data with interactive charts and timelines</p>
+                </div>
+                <img class="pjImage" src="ranksSS.png" alt="Rink Rank Thumbnail">
+            </a>
+            <a class="pj" id="procon" href="procon.zip" download>
+                <div class="pjTextContainer">
+                    <h3 class="pjTitle">ProConinator (2025)</h3>
+                    <p class="pjText">Makes creating weighted pro/con lists seamless! If you still can't decide, let the ProConinator 3000™©® 
+                        decide for you. Using highly complex caluclation based on the weights it will tell you the correct option. (~90% margin of error)</p>
+                </div>
+                <img class="pjImage" src="proconSS.png" alt="ProCon Thumbnail">
+            </a>
+            <a class="pj"id="4row" href="connect4.zip" download>
+                <div class="pjTextContainer">
+                    <h3 class="pjTitle">4 In A Row (2024)</h3>
+                    <p class="pjText">Classic 4 in a row! Play against your friends or yourself.</p>
+                </div>
+                <img class="pjImage" src="4inrowSS.png" alt="4 in a Row Thumbnail">
+            </a>
+        </div>
+    </section>
+
+
+
+    <script type="text/javascript" src="portfolio.js"></script>
+</body>
+</html>
