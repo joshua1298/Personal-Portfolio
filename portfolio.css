@@ -308,8 +308,7 @@ hr#exp{
     display: flex;
     flex-direction: column;
     width: calc(100% - 500px);
-    margin: 15px;
-    margin-right: 500px;
+    margin: 15px auto;
 }
 
 .pj{
@@ -351,3 +350,4 @@ hr#exp{
     background-position: center;
 
 }
+
