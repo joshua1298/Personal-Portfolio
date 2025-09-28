@@ -291,7 +291,7 @@ hr#exp{
 
 #resumeTag{
     color: var(--light-blue);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
@@ -350,4 +350,5 @@ hr#exp{
     background-position: center;
 
 }
+
 
